@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context="capstone.cmu.edu.landingpage.Journal">
+
+    <TextView
+        android:id="@+id/readings_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Readings"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/bg_label"
+        android:layout_below="@id/readings_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mg/dL" />
+
+    <LinearLayout
+        android:id="@+id/labels"
+        android:layout_below="@id/readings_label"
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Very Tired\n4" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Drowsy\n3" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="A little bit\n2" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Not at all\n1" />
+    </LinearLayout>
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@id/labels"
+        android:layout_centerInParent="true"
+        android:id ="@+id/graph"></com.jjoe64.graphview.GraphView>
+
+    <TextView
+        android:id="@+id/journalDate"
+        android:layout_below="@id/graph"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_below="@id/journalDate"
+        android:id="@+id/bloodouter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+        <ImageView
+            android:id="@+id/blood"
+            android:layout_gravity="left|top"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        />
+
+        <TextView
+            android:id="@+id/journalNumber"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/bloodouter"
+        android:id="@+id/foodouter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/food"
+            android:layout_gravity="left|top"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+        />
+
+        <TextView
+            android:id="@+id/foodNumber"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/foodouter"
+        android:id="@+id/moodouter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/moodIcon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:textSize="20dp"
+            android:layout_marginTop="7dp"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="  Mood"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/moodDescription"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/moodouter"
+        android:layout_marginLeft="4dp"
+        />
+
+
+</RelativeLayout>

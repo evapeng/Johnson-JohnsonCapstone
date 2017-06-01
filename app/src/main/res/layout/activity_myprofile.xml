@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp" >
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/profile_image"
+            android:scaleType="fitXY"
+            android:layout_marginTop="39dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/high_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Elina Gilbert"
+            android:textColor="#ff0000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/profile_image" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/badge"
+            android:scaleType="fitXY"
+            android:src="@drawable/beg"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/won"
+            android:layout_alignLeft="@+id/high_head"
+            android:layout_alignStart="@+id/high_head" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/trophy"
+            android:scaleType="fitXY"
+            android:src="@drawable/quick"
+            android:layout_alignTop="@+id/badge"
+            android:layout_alignEnd="@+id/high_head"
+            android:layout_alignRight="@+id/high_head" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textColor="#ff0000"
+            android:layout_alignBaseline="@+id/textView8"
+            android:layout_alignBottom="@+id/textView8"
+            android:textStyle="bold"
+            android:layout_alignStart="@+id/trophy"
+            android:layout_alignLeft="@+id/trophy" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textColor="#ff0000"
+            android:layout_marginTop="18dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/badge"
+            android:layout_alignRight="@+id/badge"
+            android:layout_alignEnd="@+id/badge" />
+
+        <TextView
+            android:text="rank_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rank_val"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:layout_alignBaseline="@+id/rank"
+            android:layout_alignBottom="@+id/rank"
+            android:layout_alignRight="@+id/trophy"
+            android:layout_alignEnd="@+id/trophy" />
+
+        <TextView
+            android:text="level val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level_val"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/rank_val"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:layout_alignStart="@+id/rank_val"
+            android:layout_alignLeft="@+id/rank_val" />
+
+        <TextView
+            android:text="Levels Completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/levels"
+            android:layout_alignBaseline="@+id/level_val"
+            android:layout_alignBottom="@+id/level_val"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:layout_alignStart="@+id/rank"
+            android:layout_alignLeft="@+id/rank" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pts_val"
+            android:text="Pts_val"
+            android:textColor="#ff0000"
+            android:layout_alignBaseline="@+id/pts"
+            android:layout_alignBottom="@+id/pts"
+            android:textStyle="bold"
+            android:layout_alignStart="@+id/won_val"
+            android:layout_alignLeft="@+id/won_val" />
+
+        <TextView
+        android:text="Points Earned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:id="@+id/pts"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:layout_below="@+id/high_head"
+            android:layout_alignLeft="@+id/won"
+            android:layout_alignStart="@+id/won" />
+
+        <TextView
+            android:text="Games Won"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/won"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:layout_alignBaseline="@+id/won_val"
+            android:layout_alignBottom="@+id/won_val"
+            android:layout_alignLeft="@+id/rank"
+            android:layout_alignStart="@+id/rank" />
+
+        <TextView
+            android:text="Overall Rank"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rank"
+            android:layout_marginTop="22dp"
+            android:textColor="#ff0000"
+            android:layout_below="@+id/textView8"
+            android:layout_alignRight="@+id/textView8"
+            android:layout_alignEnd="@+id/textView8" />
+
+        <TextView
+            android:text="won_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/won_val"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/rank_val"
+            android:layout_alignLeft="@+id/rank_val" />
+
+
+</RelativeLayout>

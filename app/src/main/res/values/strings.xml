@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LandingPage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="mood_opt1">Tired</string>
+    <string name="mood_opt2">Aggravated</string>
+    <string name="mood_opt3">Angry</string>
+    <string name="mood_opt4">Energetic</string>
+    <string name="mood_opt5">Happy</string>
+    <string name="mood_opt6">Sad</string>
+    <string name="mood_opt7">Peaceful</string>
+    <string name="mood_opt8">Stressful</string>
+    <string name = "tired1"> Not at all </string>
+    <string name = "tired2">A bit</string>
+    <string name = "tired3">Drowsy </string>
+    <string name = "tired4">Very tired</string>
+</resources>

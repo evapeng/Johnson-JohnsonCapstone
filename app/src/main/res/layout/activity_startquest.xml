@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/high_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today's Quest"
+            android:textColor="#ff0000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginTop="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="14sp"
+            android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:layout_below="@+id/high_head" />
+
+        <TextView
+            android:id="@+id/s2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:layout_below="@+id/s1" />
+        <TextView
+            android:id="@+id/s3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:layout_below="@+id/s2" />
+        <TextView
+            android:id="@+id/s4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="#ff0000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/s3" />
+
+        <TextView
+            android:id="@+id/s5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="#ff0000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/s4" />
+
+        <TextView
+            android:id="@+id/s6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="#ff0000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/s5" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView3"
+            android:scaleType="fitXY"
+            android:src="@drawable/p1"
+            android:layout_above="@+id/s2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView4"
+            android:scaleType="fitXY"
+            android:src="@drawable/p2"
+            android:layout_above="@+id/s3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView5"
+            android:scaleType="fitXY"
+            android:src="@drawable/p3"
+            android:layout_above="@+id/s4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView6"
+            android:scaleType="fitXY"
+            android:src="@drawable/p4"
+            android:layout_above="@+id/s6"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView7"
+            android:scaleType="fitXY"
+            android:src="@drawable/p5"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageView8"
+            android:scaleType="fitXY"
+            android:src="@drawable/p6"
+            android:layout_above="@+id/s5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

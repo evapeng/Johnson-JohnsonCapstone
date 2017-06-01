@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/sym_def_app_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_quest"
+            android:icon="@android:drawable/sym_def_app_icon"
+            android:title="Quests" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:title="Games" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Community" />
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Leaderboard" />
+        <item
+            android:id="@+id/nav_earn"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Share and Earn" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Journal" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

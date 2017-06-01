@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+
+        <TextView
+            android:id="@+id/high_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Select any 6 Quests"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <CheckBox
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textColor="#ff0000"
+            android:layout_below="@+id/t1"
+            android:textStyle="bold"
+            android:text="CheckBox"/>
+
+        <CheckBox
+            android:text="CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/intro"
+            android:layout_alignStart="@+id/t2"
+            android:padding="20dp"
+            android:textColor="#ff0000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="51dp"
+            android:id="@+id/t1"
+            android:layout_alignLeft="@+id/t2" />
+
+        <CheckBox
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:text="CheckBox"
+            android:layout_below="@+id/t3"
+            android:layout_alignStart="@+id/t3"
+            android:layout_alignLeft="@+id/t3" />
+
+        <CheckBox
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:text="CheckBox"
+            android:layout_below="@+id/t4"
+            android:layout_alignStart="@+id/t3"
+            android:layout_alignLeft="@+id/t3" />
+
+        <CheckBox
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:text="CheckBox"
+            android:layout_below="@+id/t2"
+            android:layout_alignStart="@+id/t2"
+            android:layout_alignLeft="@+id/t2" />
+
+        <CheckBox
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:text="CheckBox"
+            android:layout_below="@+id/t5"
+            android:layout_alignStart="@+id/t5"
+            android:layout_alignLeft="@+id/t5" />
+
+        <CheckBox
+            android:id="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textColor="#ff0000"
+            android:textStyle="bold"
+            android:text="CheckBox"
+            android:layout_below="@+id/t6"
+            android:layout_alignStart="@+id/t6"
+            android:layout_alignLeft="@+id/t6" />
+
+        <CheckBox
+            android:id="@+id/t8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="CheckBox"
+            android:textColor="#ff0000"
+            android:layout_below="@+id/t7"
+            android:layout_alignStart="@+id/t7"
+            android:layout_alignLeft="@+id/t7" />
+
+        <CheckBox
+            android:id="@+id/t9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="CheckBox"
+            android:textColor="#ff0000"
+            android:layout_below="@+id/t8"
+            android:layout_alignStart="@+id/t8"
+            android:layout_alignLeft="@+id/t8" />
+
+        <CheckBox
+            android:id="@+id/t10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:text="CheckBox"
+            android:layout_below="@+id/t9"
+            android:layout_alignStart="@+id/t9"
+            android:layout_alignLeft="@+id/t9" />
+
+        <CheckBox
+            android:id="@+id/t11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:text="CheckBox"
+            android:layout_below="@+id/t10"
+            android:layout_alignStart="@+id/t10"
+            android:layout_alignLeft="@+id/t10" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t11"
+            android:layout_alignStart="@+id/t11"
+            android:padding="20dp"
+            android:background="#ff0000"
+            android:textColor="#f7f7f7"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Start"
+            android:layout_alignEnd="@+id/t11"
+            android:layout_alignLeft="@+id/t11"
+            android:layout_alignRight="@+id/t11" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
